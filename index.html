@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AluraFlix</title>
+
+    <!-- Fonte do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Estilo embutido -->
+    <style>
+        body {
+            color: rgb(34, 85, 34);
+            background: rgb(200, 230, 200);
+            margin: 0px;
+            font-family: "Chakra Petch", sans-serif;
+            margin-bottom: 100px;
+        }
+
+        header {
+            border-bottom: solid 2px rgb(0, 51, 0);
+            padding: 20px;
+            font-size: 35px;
+            color: rgb(0, 51, 0);
+        }
+
+        .chamada {
+            background: rgb(0, 51, 0);
+            padding-bottom: 80px;
+            padding-top: 80px;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+
+        .chamada-texto {
+            margin-right: 5%;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .categoria-videos {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+        }
+
+        .categoria {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 50px;
+        }
+
+        .categoria-videos img {
+            opacity: 0.5;
+            height: 200px;
+            transition: 0.3s;
+        }
+
+        .categoria-videos img:hover {
+            opacity: 1.0;
+            border: 3px solid rgb(0, 100, 0);
+        }
+
+        .categoria h2 {
+            color: rgb(0, 51, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <header>AluraFlix</header>
+
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h1>ORDEM PARANORMAL</h1>
+            <p>#op</p>
+        </div>
+
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k5y48mQTdpE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>Episódios</h2>
+        <div class="categoria-videos">
+            <a href="https://youtu.be/ouAWcImB1WY?si=TzH2Qj9oE69hQ27A" target="_blank">
+                <img src="https://img.youtube.com/vi/ouAWcImB1WY/maxresdefault.jpg" alt="Capa do Vídeo 1" />
+            </a>
+            <a href="https://youtu.be/O24CGT-acoU?si=ezixehaJ-34XX2A8" target="_blank">
+                <img src="https://img.youtube.com/vi/O24CGT-acoU/maxresdefault.jpg" alt="Capa do Vídeo 2" />
+            </a>
+            <a href="https://youtu.be/uQSyXm1oMKw?si=-GwP9GyDGg7rZ86P" target="_blank">
+                <img src="https://img.youtube.com/vi/uQSyXm1oMKw/maxresdefault.jpg" alt="Capa do Vídeo 3" />
+            </a>
+            <a href="https://youtu.be/eQ4t1ABNTrs?si=lnw8LOgOXjdegmxh" target="_blank">
+                <img src="https://img.youtube.com/vi/eQ4t1ABNTrs/maxresdefault.jpg" alt="Capa do Vídeo 4" />
+            </a>
+            <a href="https://youtu.be/hqLilZQJA2M?si=ASADjfiG2M7ry8n2" target="_blank">
+                <img src="https://img.youtube.com/vi/hqLilZQJA2M/maxresdefault.jpg" alt="Capa do Vídeo 5" />
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
